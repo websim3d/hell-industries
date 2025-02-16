@@ -1,3 +1,4 @@
 type: Prop
 breakSound: rock-crush
 name: Dunite Boulder
+variants: 3
