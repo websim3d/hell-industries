@@ -1,0 +1,20 @@
+type: CoreBlock
+squareSprite: true
+health: 25000
+armor: 12
+itemCapacity: 10000
+size: 5
+category: effect
+unitType: u1-extract
+unitCapModifier: 450
+requirements: [
+  i1-osmium/5000
+  i2-carcenerite/5000
+  ]
+research: {
+  root: true
+  planet: persephone
+  name: Persephone
+  requiresUnlock: true
+    }
+alwaysUnlocked: true
