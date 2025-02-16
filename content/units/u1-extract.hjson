@@ -3,6 +3,7 @@ flying: true
 speed: 3
 buildSpeed: 2
 hitSize: 24
+mineWalls: true
 engineOffset: 15
 envDisabled: 0
 mineSpeed: 5
