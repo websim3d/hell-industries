@@ -1,3 +1,4 @@
 type: Prop
 breakSound: rock-crush
 name: Red Ash Boulder
+variants: 3
