@@ -1,3 +1,4 @@
 type: Prop
   breakSound: rock-crush
 name: Brown Ash Boulder
+variants: 3
