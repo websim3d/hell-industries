@@ -1,0 +1,54 @@
+type: flying
+flying: true
+speed: 3
+buildSpeed: 2
+hitSize: 24
+engineOffset: 15
+engineSize: 3
+engineColor: f59331
+trailColor: f59331
+trailScl: 2
+trailLength: 4
+trailColor: f59331
+controller: BuilderAI
+defaultController: BuilderAI
+health: 450
+armor: 4
+strafePenalty: 0.8
+rotateSpeed: 3.5
+lowAltitude: true
+weapons: [
+{
+reload: 60
+shoot: {
+  shots: 5
+  shotDelay: 5
+}
+x: 12
+y: 2
+shootSound: shootAlt
+bullet: {
+  type: MissileBulletType
+  weaveMag: 0.5
+  weaveScale: 2
+  damage: 5
+  hitEffect: hitBulletColor
+  shootEffect: shootBigColor
+  smokeEffect: shootSmokeSquareSparse
+  despawnEffect: hitBulletColor
+  height: 4
+  width: 4
+  trailLength: 6
+  trailWidth: 2
+  trailColor: f9d2c0
+  frontColor: ffe4d8
+  backColor: f9d2c0
+  hitColor: f9d2c0
+  speed: 3
+  lifetime: 120
+  buildingDamageMultiplier: 0.04
+  healPercent: 1.2
+  collidesTeam: true
+    }
+}
+  ]
