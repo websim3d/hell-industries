@@ -1,0 +1,16 @@
+type: OverflowDuct
+name: Osmium Underflow Gate
+description: Outputs items to the front only if the sides are blocked.
+requirements: [
+  i1-osmium/5
+  i2-carcenerite/5
+  ]
+invert: true
+speed: 3
+health: 100
+research: osmium-overflow-gate
+researchCost: [
+    i1-osmium/100
+    i2-carcenerite/100
+      ]
+solid: false
