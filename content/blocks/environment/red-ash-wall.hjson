@@ -1,0 +1,4 @@
+type: StaticWall
+attributes: {
+  ash: 0.75
+    }
