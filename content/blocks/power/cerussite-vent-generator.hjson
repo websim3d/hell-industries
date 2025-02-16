@@ -1,0 +1,35 @@
+type: ThermalGenerator
+name: Carcenerite Vent Generator
+description: produces power and likhorite off of carceneritic vents.
+requirements: [
+  i1-osmium/75
+  ]
+researchCost: [
+  i1-osmium/5
+  ]
+research: core-quarry
+attribute: likhorite
+displayEfficiencyScale: 1
+minEfficiency: 1
+baseEfficiency: 0
+powerProduction: 5
+liquidCapacity: 20
+hasLiquids: true
+outputLiquid: l1-likhorite/1
+size: 3
+fogRadius: 3
+ambientSound: hum
+ambientSoundVolume: 0.06
+generateEffect: none
+drawer: {
+  type: DrawMulti
+  drawers: [
+{
+type: DrawDefault
+  }
+  {
+  type: DrawArcSmelt
+    }
+]
+}
+category: power
