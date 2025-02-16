@@ -1,0 +1,12 @@
+type: DuctRouter
+name: Osmium Router
+speed: 3
+health: 100
+category: distribution
+solid: false
+researchCost: [
+    i1-osmium/30
+  ]
+requirements: [
+  i1-osmium/5
+  ]
