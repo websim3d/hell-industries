@@ -1,0 +1,13 @@
+type: Duct
+speed: 3
+health: 100
+researchCost: [
+    i1-osmium/5
+  ]
+name: Osmium Duct
+description: moves items in a confined environment.
+bridgeReplacement: osmium-bridge
+requirements: [
+    i1-osmium/1
+    ]
+research: core-quarry
