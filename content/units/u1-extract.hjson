@@ -5,11 +5,14 @@ buildSpeed: 2
 hitSize: 24
 engineOffset: 15
 envDisabled: 0
+mineSpeed: 5
+mineTier: 3
 engineSize: 3
 engineColor: f59331
 trailColor: f59331
 trailScl: 2
 trailLength: 4
+buildBeamOffset: 20
 trailColor: f59331
 controller: BuilderAI
 defaultController: BuilderAI
