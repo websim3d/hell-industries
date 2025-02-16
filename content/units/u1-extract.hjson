@@ -4,6 +4,7 @@ speed: 3
 buildSpeed: 2
 hitSize: 24
 engineOffset: 15
+envDisabled: 0
 engineSize: 3
 engineColor: f59331
 trailColor: f59331
