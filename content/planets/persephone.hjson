@@ -12,6 +12,10 @@ atmosphereRadOut: 0.3
 orbitRadius: 10
 radius: 0.9
 minZoom: 1
+orbitOffset: 165
+rotateTime: 680
+alwaysUnlocked: true
+defaultEnv: 17
 accessible: true
 upadteLighting: false
 sectorSeed: 69420
