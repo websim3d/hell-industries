@@ -1,4 +1,4 @@
-type: WallOre
+type: OreBlock
 name: Wall Carcenerite
 wallOre: true
 itemDrop: i2-carcenerite
