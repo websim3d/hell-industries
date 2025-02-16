@@ -7,6 +7,7 @@ solid: false
 researchCost: [
     i1-osmium/30
   ]
+research: osmium-duct
 requirements: [
   i1-osmium/5
   ]
