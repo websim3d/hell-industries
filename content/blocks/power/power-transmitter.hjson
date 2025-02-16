@@ -1,0 +1,16 @@
+type: PowerNode
+category: power
+requirements: [
+    i2-carcenerite/10
+  ]
+researchCost: [
+    i2-carcenerite/10
+  ]
+research: cerussite-vent-generator
+name: Power Transmitter
+description: Transmits power.
+size: 2
+maxNodes: 30
+laserRange: 22
+laserColor2: d3c6c0
+laserScale: 0.3
