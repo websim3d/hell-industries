@@ -7,29 +7,30 @@ requirements: [
 researchCost: [
   i1-osmium/5
   ]
-research: core-quarry
-attribute: steam
-displayEfficiencyScale: 0.111111111111111111111111111111111111111111111111111
-minEfficiency: 8.9999999999999999999999999999
-displayEfficiency: false
-powerProduction: 5
-liquidCapacity: 20
-hasLiquids: true
 outputLiquid: l1-likhorite/1
+health: 350
+attribute: heat
+displayEfficiency: false
+minEfficiency: 0.999
+category: power
+powerProduction: 30
+generateEffect: turbinegenerate
+effectChance: 0.03
 size: 3
-fogRadius: 3
+hasItems: false
+itemCapacity: 30
+hasLiquids: false
 ambientSound: hum
 ambientSoundVolume: 0.06
-generateEffect: none
 drawer: {
   type: DrawMulti
   drawers: [
-{
-type: DrawDefault
-  }
-  {
-  type: DrawArcSmelt
+    {
+      type: DrawDefault
     }
-]
+    {
+      type: DrawArcSmelt
+    }
+  ]
 }
-category: power
+research: core-quarry

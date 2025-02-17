@@ -1,6 +1,6 @@
 type: SteamVent
 attributes: {
-  steam: 1
+  heat: 1
     }
 name: Carcenerite Vent
 effect: ventSteam
