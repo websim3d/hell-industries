@@ -8,7 +8,7 @@ researchCost: [
   i1-osmium/5
   ]
 research: core-quarry
-attribute: likhorite
+attribute: steam
 displayEfficiencyScale: 0.111111111111111111111111111111111111111111111111111
 minEfficiency: 8.9999999999999999999999999999
 displayEfficiency: false
