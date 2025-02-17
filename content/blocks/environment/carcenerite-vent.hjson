@@ -1,9 +1,9 @@
 type: SteamVent
 attributes: {
-  likhorite: 1
+  steam: 1
     }
 name: Carcenerite Vent
 effect: ventSteam
 effectColor: d3c6c0
-blendgroup: carcenerite-floor
+blendGroup: carcenerite-floor
 parent: carcenerite-floor
