@@ -1,0 +1,14 @@
+type: Battery
+emptyLightColor: aa9692
+fullLightColor: d3c6c0
+size: 2
+health: 320
+consumes: {
+  powerBuffered: 12000
+    }
+research: cerussite-vent-generator
+name: Carcenerite Battery
+description: stores power.
+requirements: [
+  i2-carcenerite/135
+  ]
