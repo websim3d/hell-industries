@@ -10,9 +10,8 @@ researchCost: [
 research: core-quarry
 attribute: likhorite
 displayEfficiencyScale: 0.111111111111111111111111111111111111111111111111111
-minEfficiency: 8.9
-boostScale: 0.111111111111111111111111111111111  
-baseEfficiency: 0
+minEfficiency: 8.9999999999999999999999999999
+displayEfficiency: false
 powerProduction: 5
 liquidCapacity: 20
 hasLiquids: true
