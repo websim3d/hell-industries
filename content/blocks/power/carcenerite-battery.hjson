@@ -12,3 +12,4 @@ description: stores power.
 requirements: [
   i2-carcenerite/135
   ]
+category: power
