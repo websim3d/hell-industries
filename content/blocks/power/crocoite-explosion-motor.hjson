@@ -1,0 +1,28 @@
+type: ImpactReactor
+size: 4
+name: Crocoite Explosion Motor
+health: 1000
+powerProduction: 230
+itemDuration: 300
+ambientSound: pulse
+ambientSoundVolume: 0.08
+liquidCapacity: 90
+consumes: {
+  power: 20
+  items: [
+    i4-crocoite/1
+    ]
+  liquids: [
+      l1-likhorite/0.1
+    ]
+    }
+category: power
+research: {
+  parent: cerussite-vent-generator
+    }
+requirements: [
+  i1-osmium/2000
+  i2-carcenerite/2000
+  i3-ash/1500
+  i4-crocoite/500
+  ]
