@@ -29,7 +29,7 @@ prebuildBase: true
 defaultCore: core-quarry
 parent: sun
 solarSystem: sun
-itemWhiteList: [
+itemWhitelist: [
     i1-osmium,
     i2-carcenerite,
     i3-ash,
