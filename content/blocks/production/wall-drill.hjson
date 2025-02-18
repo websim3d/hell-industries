@@ -1,0 +1,28 @@
+type: BeamDrill
+drillTime: 300
+range: 7
+tier: 2
+optionalBoostIntensity: 1.5
+//you wont be able to really boost it so why the fuck make it worth it
+consumes: {
+  liquids: {
+    liquids: [
+        l1-likhorite/0.2
+      ]
+    booster: true
+    optional: true
+      }
+  power: 0.25
+}
+size: 1
+requirements: [
+  i1-osmium/35
+  i3-ash/20
+  ]
+researchCost: [
+  i1-osmium/10
+  i3-ash/10
+  ]
+fogRadius: 3
+research: ash-grinder
+category: production
