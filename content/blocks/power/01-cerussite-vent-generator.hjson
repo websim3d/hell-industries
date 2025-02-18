@@ -11,6 +11,7 @@ outputLiquid: l1-likhorite/1
 health: 350
 attribute: heat
 displayEfficiency: false
+displayEfficiencyScale: 0.111
 minEfficiency: 0.999
 category: power
 powerProduction: 30
