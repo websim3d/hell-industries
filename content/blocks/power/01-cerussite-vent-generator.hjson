@@ -11,10 +11,10 @@ outputLiquid: l1-likhorite/1
 health: 350
 attribute: heat
 displayEfficiency: false
-displayEfficiencyScale: 0.111
-minEfficiency: 0.999
+displayEfficiencyScale: 0.11111111111111111
+minEfficiency: 9
 category: power
-powerProduction: 30
+powerProduction: 4.5
 generateEffect: turbinegenerate
 effectChance: 0.03
 size: 3
@@ -31,11 +31,11 @@ drawer: {
     }
     {
       type: DrawArcSmelt
-      flameRad: 1
-      particleRad: 7
-      particleStroke: 1
-      circleSpace: 2
-      circleStroke: 1.5
+      flameRad: 0.1
+      particleRad: 0.7
+      particleStroke: 0.1
+      circleSpace: 0.2
+      circleStroke: 0.15
     }
   ]
 }
