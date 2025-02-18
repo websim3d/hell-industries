@@ -30,6 +30,11 @@ drawer: {
     }
     {
       type: DrawArcSmelt
+      flameRad: 1
+      particleRad: 7
+      particleStroke: 1
+      circleSpace: 2
+      circleStroke: 1.5
     }
   ]
 }
