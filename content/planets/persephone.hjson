@@ -27,9 +27,6 @@ clearSectorOnLose: false
 allowWaves: true
 prebuildBase: true
 defaultCore: core-quarry
-unlockedOnLand: [
-    core-quarry
-]
 parent: sun
 solarSystem: sun
 itemWhiteList: [
