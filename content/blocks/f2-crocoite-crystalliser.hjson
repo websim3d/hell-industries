@@ -1,0 +1,42 @@
+type: GenericCrafter
+consumes: {
+  power: 5
+  items: [
+    i1-osmium/3
+    i2-ash/8
+    ]
+    }
+itemCapacity: 40
+outputItem: i4-crocoite/10
+craftTime: 600
+size: 2
+craftEffect: smokeCloud
+drawer: {
+  type: DrawMulti
+  drawer: [
+{
+type: DrawRegion
+suffix: -bottom
+  }
+    {
+type: DrawCrucibleFlame
+particleRad: 5
+particles: 20
+particleSize: 2
+rotateScale: 2.5
+  }
+{
+type: DrawRegion
+  }
+]
+}
+research: {
+  parent: core-quarry
+    }
+requirements: [
+  i1-osmium/250
+  i2-carcenerite/50
+  i3-ash/200
+  ]
+name: Crocoite Crystalliser
+description: Creates crocoite by fusing compounds from osmium and ash. Requires a large amount of power.
