@@ -1,0 +1,55 @@
+type: GenericCrafter
+size: 3
+consumes: {
+  power: 20
+  items: [
+    i2-carcenerite/15
+    i4-crocoite/1
+    ]
+  liquids: [
+    l1-likhorite/1
+    ]
+    }
+itemCapacity: 100
+outputItem: i5-cerussite/15
+craftTime: 600
+craftEffect: {
+  type: WrapEffect
+  color: feffd8
+  effect: dynamicSpikes
+  rotation: 24
+    }
+category: crafting
+drawer: {
+  type: DrawMulti
+  drawers: [
+{
+type: DrawRegion
+suffix: -bottom
+  }
+    {
+type: DrawCrucibleFlame
+particleRad: 5
+particles: 20
+particleSize: 2
+rotateScale: 2.5
+  }
+{
+type: DrawRegion
+  }
+{
+  type: DrawParticles
+  color: feffd8
+    }
+]
+}
+research: {
+  parent: f2-crocoite-crystalliser
+    }
+requirements: [
+  i1-osmium/450
+  i2-carcenerite/450
+  i3-ash/150
+  i4-crocoite/100
+  ]
+health: 1200
