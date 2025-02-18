@@ -12,7 +12,7 @@ health: 350
 attribute: heat
 displayEfficiency: false
 displayEfficiencyScale: 0.11111111111111111
-minEfficiency: 9
+minEfficiency: 8.9999999
 category: power
 powerProduction: 4.5
 generateEffect: turbinegenerate
