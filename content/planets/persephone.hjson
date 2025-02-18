@@ -26,8 +26,10 @@ allowWaveSimulation: false
 clearSectorOnLose: false
 allowWaves: true
 prebuildBase: true
-defaultCore: core-shard
-//placeholder until i make the core lul :3
+defaultCore: core-quarry
+unlockedOnLand: [
+    core-quarry
+]
 parent: sun
 solarSystem: sun
 itemWhiteList: [
