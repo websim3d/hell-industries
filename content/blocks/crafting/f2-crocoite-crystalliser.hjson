@@ -14,7 +14,7 @@ craftEffect: smokeCloud
 category: crafting
 drawer: {
   type: DrawMulti
-  drawer: [
+  drawers: [
 {
 type: DrawRegion
 suffix: -bottom
