@@ -3,7 +3,7 @@ consumes: {
   power: 5
   items: [
     i1-osmium/3
-    i2-ash/8
+    i3-ash/8
     ]
     }
 itemCapacity: 40
@@ -11,6 +11,7 @@ outputItem: i4-crocoite/10
 craftTime: 600
 size: 2
 craftEffect: smokeCloud
+category: crafting
 drawer: {
   type: DrawMulti
   drawer: [
