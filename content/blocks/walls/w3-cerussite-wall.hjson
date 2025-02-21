@@ -1,0 +1,46 @@
+type: Wall
+health: 1000
+size: 1
+name: Cerussite Wall
+destroyBulletSameTeam: true
+destroyBullet: {
+  type: BulletType
+  lifetime: 0
+  instantDisappear: true
+  damage: 0
+  splashDamage: 20
+  splashDamageRadius: 16
+  hitEffect: {
+    type: MultiEffect
+    effects: [
+{
+type: WaveEffect
+lifetime: 8
+sizeTo: 16
+strokeFrom: 2
+colorFrom: feffd8
+colorTo: feffd8aa
+  }
+  {
+  type: ParticleEffect
+  line: true
+  lenFrom: 8
+  lenTo: 0
+  strokeFrom: 1
+  lifetime: 10
+  length: 20
+    }
+]
+  }
+    despawnEffect: none
+      }
+destroyEffect: none
+requirements: [
+  i5-cerussite/6
+  ]
+researchCost: [
+  i5-cerussite/120
+  ]
+research:{
+  parent: w2-carcenerite-wall-large
+    }
