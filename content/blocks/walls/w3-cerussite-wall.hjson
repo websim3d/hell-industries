@@ -44,3 +44,4 @@ researchCost: [
 research:{
   parent: w2-carcenerite-wall-large
     }
+category: defense
