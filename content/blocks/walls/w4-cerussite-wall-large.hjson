@@ -1,0 +1,49 @@
+type: Wall
+health: 4000
+size: 2
+name: Large Cerussite Wall
+description: "A durable wall that explodes into a ton of damaging fragments upon destruction. Absorbs lasers."
+destroyBulletSameTeam: true
+absorbLasers: true
+destroyBullet: {
+  type: BulletType
+  lifetime: 0
+  instantDisappear: true
+  damage: 0
+  splashDamage: 100
+  splashDamageRadius: 32
+  hitEffect: {
+    type: MultiEffect
+    effects: [
+{
+type: WaveEffect
+lifetime: 8
+sizeTo: 32
+strokeFrom: 4
+colorFrom: feffd8
+colorTo: feffd8aa
+  }
+  {
+  type: ParticleEffect
+  line: true
+  lenFrom: 10
+  particles: 20
+  lenTo: 0
+  strokeFrom: 1.5
+  lifetime: 10
+  length: 40
+    }
+]
+  }
+    despawnEffect: none
+      }
+destroyEffect: none
+requirements: [
+  i5-cerussite/24
+  ]
+researchCost: [
+  i5-cerussite/480
+  ]
+research:{
+  parent: w3-cerussite-wall    
+}
