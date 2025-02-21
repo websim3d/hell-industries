@@ -47,3 +47,4 @@ researchCost: [
 research:{
   parent: w3-cerussite-wall    
 }
+category: defense
