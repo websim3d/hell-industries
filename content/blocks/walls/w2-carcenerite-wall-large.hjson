@@ -1,0 +1,13 @@
+type: Wall
+size: 2
+name: Large Carcenerite Wall
+health: 1800
+requirements: [
+  i2-carcenerite/24
+  ]
+researchCost: [
+  i2-carcenerite/80
+  ]
+research: core-quarry
+description: "A simple wall that blocks ennemy projectiles. Also blocks lasers."
+absorbLasers: true
