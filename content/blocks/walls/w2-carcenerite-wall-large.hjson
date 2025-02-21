@@ -8,6 +8,6 @@ requirements: [
 researchCost: [
   i2-carcenerite/80
   ]
-research: core-quarry
+research: w1-carcenerite-wall
 description: "A simple wall that blocks ennemy projectiles. Also blocks lasers."
 absorbLasers: true
