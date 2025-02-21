@@ -10,3 +10,4 @@ researchCost: [
   ]
 research: core-quarry
 description: "A simple wall that blocks ennemy projectiles. Larger variants can block lasers."
+category: defense
