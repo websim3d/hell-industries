@@ -2,7 +2,7 @@ type: ItemTurret
 range: 160
 reload: 30
 shoot: {
-  type: ShootBarrels
+  type: ShootBarrel
   shots: 2
   barrels: [
     -3, 4.5, 0
