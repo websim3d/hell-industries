@@ -1,6 +1,8 @@
 type: ItemTurret
 range: 160
 reload: 30
+category: turrets
+shootY: 0
 shoot: {
   type: ShootBarrel
   shots: 2
@@ -20,6 +22,7 @@ drawer: {
     suffix: -arms
     progress: recoil
     moveY: -2
+    under: true
       }
 ]
 }
