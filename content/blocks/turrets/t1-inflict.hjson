@@ -1,0 +1,63 @@
+type: ItemTurret
+range: 160
+reload: 30
+shoot: {
+  type: ShootBarrels
+  shots: 2
+  barrels: [
+    -3, 4.5, 0
+    3, 4.5, 0
+    ]
+    }
+size: 2
+maxAmmo: 50
+squareSprite: false
+drawer: {
+  type: DrawTurret
+  basePrefix: hell-
+  parts: [
+    {
+    suffix: -arms
+    progress: recoil
+    moveY: -2
+      }
+]
+}
+research: core-quarry
+ammoTypes: {
+  i2-carcenerite: {
+      type: ShrapnelBulletType
+      width: 5
+      length: 160
+      pierceCap: 3
+      fromColor: f9d2c0
+      toColor: d3c6c0
+      serrations: 0
+      hitEffect: hitBulletColor
+      despawnEffect: none
+      hitColor: d3c6c0
+      shootEffect: shootBigColor
+      smokeEffect: {
+        type: ParticleEffect
+        line: true
+        lifetime: 10
+        cone: 15
+        particles: 8
+        lenFrom: 5
+        lenTo: 4
+        strokeFrom: 1
+        strokeTo: 0
+        colorTo: f9d2c0
+          }
+  }
+}
+requirements: [
+    i1-osmium/50
+    i2-carcenerite/40
+    i3-ash/5
+      ]
+researchCost: [
+  i1-osmium/20
+  i2-carcenerite/20
+  i3-ash/20
+  ]
