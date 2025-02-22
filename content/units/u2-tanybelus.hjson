@@ -1,0 +1,79 @@
+type: legs
+outlineColor: 484150
+speed: 1
+hitSize: 20
+health: 400
+layer: 74.02
+hovering: true
+legStraightness: 0.2
+legSpeed: 0.9
+legCount: 8
+legLength: 20
+lockLegBase: true
+legContinuousMove: true
+legExtension: 0.5
+legBaseOffset: 8
+legMaxLength: 1.5
+legLengthScl: 0.96
+legMinLength: 0.5
+legForwardScl: 0.95
+fogRadius: 16
+rippleScale: 0.2
+legMoveSpace: 1
+legPhysicsLayer: false
+weapons: [
+{
+mirror: false
+reload: 75
+x: 0
+y: 14
+shootSound: blaster
+bullet: {
+  type: ShrapnelBulletType
+  damage: 12
+  shootEffect: shootBigColor
+  smokeEffect: {
+    type: ParticleEffect
+    line: true
+    lifetime: 10
+    cone: 15
+    particles: 8
+    lenFrom: 5
+    lenTo: 4
+    strokeFrom: 1
+    strokeTo: 0
+    colorTo: a25649
+      }
+  fromColor: a25649
+  toColor: 884545
+  lifetime: 12
+  length: 128
+  serrations: 0
+  width: 10
+  fragBullets: 2
+  fragRandomSpread: 2
+  fragSpread: 0.5
+  hitColor: 884545
+  laserAbsorb: true
+  pierce: false
+  pierceBuilding: false
+  fragBullet: {
+    type: BasicBulletType
+    sprite: missile-large
+    frontColor: a25649
+    backColor: 884545
+    speed: 4
+    lifetime: 32
+    hitEffect: hitBulletColor
+    despawnEffect: hitBulletColor
+    trailColor: 884545
+    hitColor: 884545
+    damage: 6
+    splashDamage: 4
+    splashDamageRadius: 8
+    trailLength: 4
+      }
+}
+}
+  ]
+research: core-quarry
