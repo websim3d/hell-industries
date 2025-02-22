@@ -1,0 +1,8 @@
+type: flying
+speed: 2
+drag: 0.05
+accel: 0.08
+flying: true
+engineSize: 3
+engineOffset: 10
+trailLength: 12
