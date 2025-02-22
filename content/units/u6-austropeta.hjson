@@ -42,6 +42,7 @@ bullet: {
   height: 8
   width: 6
   trailWidth: 2.8
+  lifetime: 208
   sprite: missile-large
   }
 }
