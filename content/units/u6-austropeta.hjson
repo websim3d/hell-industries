@@ -6,3 +6,43 @@ flying: true
 engineSize: 3
 engineOffset: 10
 trailLength: 12
+hitSize: 16
+health: 210
+armor: 2
+outlineColor: 484150
+envDisabled: 0
+research: {
+  parent: core-quarry
+}
+fogRadius: 14
+weapons: [
+{
+x: 3
+y: 0
+reload: 10
+alternate: false
+shootSound: blaster
+shoot: {
+  shots: 2
+}
+inaccuracy: 0.5
+bullet: {
+  type: MissileBulletType
+  frontColor: f9d2c0
+  backColor: f9d2c0
+  trailColor: f9d2c0
+  hitColor: f9d2c0
+  damage: 4
+  homingPower: 0.03
+  trailLength: 40
+  speed: 0.5
+  keepVelocity: false
+  hitEffect: hitBulletColor
+  despawnEffect: hitBulletColor
+  height: 8
+  width: 6
+  trailWidth: 2.8
+  sprite: missile-large
+  }
+}
+]
