@@ -5,6 +5,9 @@ hitSize: 20
 health: 400
 layer: 74.02
 hovering: true
+name: Tanybelus
+description: Fires a spike of ash and then two additional small missiles. Can step over structures and other units.
+shadowElevation: 0.1
 legStraightness: 0.2
 legSpeed: 0.9
 legCount: 8
@@ -27,7 +30,7 @@ mirror: false
 reload: 75
 x: 0
 y: 14
-shootSound: blaster
+shootSound: bolt
 bullet: {
   type: ShrapnelBulletType
   damage: 12
