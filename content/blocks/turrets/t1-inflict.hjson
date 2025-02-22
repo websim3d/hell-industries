@@ -27,6 +27,7 @@ research: core-quarry
 ammoTypes: {
   i2-carcenerite: {
       type: ShrapnelBulletType
+      damage: 10
       width: 5
       length: 160
       pierceCap: 3
