@@ -18,7 +18,7 @@ consumes: {
     }
 category: power
 research: {
-  parent: cerussite-vent-generator
+  parent: 01-cerussite-vent-generator
     }
 requirements: [
   i1-osmium/2000
