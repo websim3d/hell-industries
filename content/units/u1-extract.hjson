@@ -38,7 +38,7 @@ bullet: {
   type: MissileBulletType
   weaveMag: 0.5
   weaveScale: 2
-  damage: 5
+  damage: 10
   hitEffect: hitBulletColor
   shootEffect: shootBigColor
   smokeEffect: shootSmokeSquareSparse
