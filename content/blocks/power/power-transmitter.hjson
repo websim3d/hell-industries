@@ -6,7 +6,7 @@ requirements: [
 researchCost: [
     i2-carcenerite/10
   ]
-research: cerussite-vent-generator
+research: 01-cerussite-vent-generator
 name: Power Transmitter
 description: Transmits power.
 size: 2
