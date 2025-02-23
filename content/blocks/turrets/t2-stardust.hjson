@@ -16,10 +16,10 @@ drawer: {
     {
     suffix: -center
     progress: recoil
-    color: 00000000
-    colorTo: ffffff
-    mixColor: 00000000
-    mixColorTo: ffff0000
+    colorTo: 00000000
+    color: ffffff
+    mixColorTo: 00000000
+    mixColor: ffff0000
     outline: false
     under: true
       }
@@ -70,6 +70,8 @@ shootType: {
     lifetime: 56.6666666666666666666666666666666666
     trailWidth: 1
     trailLength: 20
+    shootEffect: shootSmallColor
+    smokeEffect: none
       }
 requirements:[
     i1-osmium/50
