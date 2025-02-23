@@ -15,6 +15,12 @@ name: Austropeta
 description: A fast moving flying unit that fires small and slow homing bullets at a rapid pace.
 research: {
   parent: unit-factory
+  objectives: [
+  {
+  type: SectorComplete
+  preset: s1-a-warm-welcome
+  }
+    ]
 }
 fogRadius: 14
 weapons: [
