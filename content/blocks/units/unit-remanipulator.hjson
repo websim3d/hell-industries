@@ -1,0 +1,34 @@
+type: Reconstructor
+size: 3
+configurable: false
+time: 900
+category: units
+outRegion: hell-industries-unit-factory-out
+inRegion: hell-industries-unit-factor-in
+consumes: {
+  power: 0.5
+  items: [
+      i2-carcenerite/10
+      ]
+    }
+upgrades: [
+  [
+  u2-tanybelus,
+  u3-tapsatella
+  ]
+  ]
+research:{
+  parent: unit-factory
+  objectives: [
+{
+  type: SectorComplete
+  preset: s1-a-warm-welcome
+    }
+    ]
+    }
+name: Unit Remanipulator
+description: We don't know how but slapping more carcenerite on a unit makes it stronger so uh that's cool ig.
+requirements: [
+    i1-osmium/200
+    i2-carcenerite/200
+    ]
