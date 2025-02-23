@@ -2,7 +2,8 @@ difficulty: 3
 planet: persephone
 sector: 5
 research: core-quarry
-name: "A Warm Welcome"
+localizeName: "//PERSEPHONE//
+           FIRST//A Warm Welcome"
 description: "So uh yeah. 
   You can mine dunite walls to get osmium and carcenerite walls to get well, carcenerite.
 
