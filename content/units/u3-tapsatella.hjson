@@ -27,6 +27,7 @@ fogRadius: 22
 rippleScale: 0.2
 legMoveSpace: 1
 legPhysicsLayer: false
+mechStepShake: 0
 weapons: [
 {
 name: u3-tapsatella-weapon
