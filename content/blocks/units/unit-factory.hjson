@@ -17,7 +17,7 @@ time: 600
   }
   {
 unit: u6-austropeta
-requireements: [
+requirements: [
     i1-osmium/10
     i2-carcenerite/10
     ]
