@@ -1,0 +1,35 @@
+name: Unit Factory
+description: Produces tier one units.
+type: UnitFactory
+configurable: true
+regionSuffix: -pers
+consumes: {
+  power: 0.2
+    }
+plans: [
+{
+unit: u2-tanybelus
+requirements: [
+    i1-osmium/10
+    i3-ash/10
+      ]
+time: 600
+  }
+  {
+unit: u6-austropeta
+requireements: [
+    i1-osmium/10
+    i2-carcenerite/10
+    ]
+time: 600
+  }
+]
+research: core-quarry
+researchCost: [
+  i1-osmium/100
+  i3-ash/50
+  ]
+requirements: [
+  i1-osmium/100
+  i3-ash/50
+  ]
