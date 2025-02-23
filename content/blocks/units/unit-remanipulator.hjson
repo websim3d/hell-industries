@@ -1,7 +1,7 @@
 type: Reconstructor
 size: 3
 configurable: false
-time: 900
+constructTime: 900
 category: units
 consumes: {
   power: 0.5
