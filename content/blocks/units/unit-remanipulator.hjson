@@ -3,8 +3,6 @@ size: 3
 configurable: false
 time: 900
 category: units
-outRegion: hell-industries-unit-factory-out
-inRegion: hell-industries-unit-factor-in
 consumes: {
   power: 0.5
   items: [
