@@ -1,0 +1,71 @@
+type: legs
+outlineColor: 484150
+envDisabled: 0
+speed: 0.9
+hitSize: 32
+health: 1150
+layer: 74.032
+armor: 9
+hovering: true
+name: Tapsatella
+description: Fires a molten orb of magma.
+shadowElevation: 0.15
+legStraightness: 0.5
+legSpeed: 0.85
+legCount: 6
+legLength: 24
+legBaseStraightness: 0
+lockLegBase: true
+legContinuousMove: true
+legExtension: 0.5
+legBaseOffset: 10
+legMaxLength: 1.2
+legLengthScl: 0.96
+legMinLength: 0.8
+legForwardScl: 0.95
+fogRadius: 22
+rippleScale: 0.2
+legMoveSpace: 1
+legPhysicsLayer: false
+weapons: [
+{
+name: u3-tapsatella-weapon
+mirror: false
+reload: 75
+x: 0
+y: 8
+shootSound: explosion
+bullet: {
+  type: BasicBulletType
+  sprite: circle-bullet
+  speed: 6
+  lifetime: 29.3333333333333333333333333
+  parts: [
+    {
+    type: HaloPart
+    haloRotateSpeed: 8
+    sides: 16
+    haloRadius: 16
+    shapes: 1
+    }
+    ]
+  damage: 20
+  splashDamage: 12
+  splashDamageRadius: 8
+  height: 12
+  width: 12
+  shrinkY: 0
+  shrinkX: 0
+  frontColor: ff9c5a
+  backColor: ff9c5a
+  pierce: true
+  pierceBuilding: true
+  pierceCap: 2
+  shootEffect: shootTitan
+  smokeEffect: shockwave
+  hitEffect: blastExplosion
+  despawnEffect: smokeCloud
+}
+}
+  ]
+research: unit-factory
