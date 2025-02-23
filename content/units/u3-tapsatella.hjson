@@ -2,7 +2,7 @@ type: legs
 outlineColor: 484150
 envDisabled: 0
 speed: 0.9
-hitSize: 32
+hitSize: 24
 health: 1150
 layer: 74.032
 armor: 9
