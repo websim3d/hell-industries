@@ -33,7 +33,8 @@ name: u3-tapsatella-weapon
 mirror: false
 reload: 75
 x: 0
-y: 8
+y: 0
+shootY: 8
 shootSound: explosion
 bullet: {
   type: BasicBulletType
@@ -47,6 +48,7 @@ bullet: {
     sides: 16
     haloRadius: 16
     shapes: 1
+    color: ff9c5a
     }
     ]
   damage: 20
