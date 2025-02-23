@@ -24,6 +24,7 @@ legMinLength: 0.5
 legForwardScl: 0.95
 fogRadius: 16
 rippleScale: 0.2
+mechStepShake: 0
 legMoveSpace: 1
 legPhysicsLayer: false
 weapons: [
