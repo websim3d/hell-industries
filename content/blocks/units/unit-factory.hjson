@@ -4,6 +4,7 @@ type: UnitFactory
 configurable: true
 regionSuffix: -pers
 size: 3
+category: units
 consumes: {
   power: 0.2
     }
