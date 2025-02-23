@@ -1,0 +1,83 @@
+type: PowerTurret
+size: 2
+range: 170
+xRand: 6
+reload: 40
+name: Stardust
+description: Fires small ash pellets that pierce and deal knockback.
+consumes: {
+  power: 2
+    }
+squareSprite: false
+drawer: {
+  type: DrawTurret
+  basePrefix: hell-
+  parts: [
+    {
+    suffix: -center
+    progress: recoil
+    color: 00000000
+    colorTo: ffffff
+    mixColor: 00000000
+    mixColorTo: ffff0000
+    outline: false
+    under: true
+      }
+    ]
+}
+recoil: 1
+research: {
+  parent: t1-inflict
+    objectives: [
+{
+type: SectorComplete
+preset: s1-a-warm-welcome
+  }
+      ]
+}
+shoot: {
+  shots: 5
+    }
+shootType: {
+    type: BulletType
+    layer: 98.9
+    parts: [
+{
+  type: FlarePart
+  radius: 3
+    radiusTo: 0
+    progress: {
+      type: life
+      op: curve
+      interp: pow10In
+        }
+  followRotation: false
+  layer: 99
+  color1: a25649
+  color2: a25649
+    }
+    ]
+    damage: 8
+    pierceCap: 2
+    knockback: 3
+    hitEffect: hitBulletColor
+    despawnEffect: none
+    trailColor: a25649
+    hitColor: a25649
+    weaveMag: 24
+    weaveScale: 1
+    speed: 3
+    lifetime: 56.6666666666666666666666666666666666
+    trailWidth: 1
+    trailLength: 20
+      }
+requirements:[
+    i1-osmium/50
+    i2-carcenerite/5
+    i3-ash/50
+    ]
+  researchCost: [
+  i1-osmium/20
+  i2-carcenerite/20
+  i3-ash/20
+  ]
