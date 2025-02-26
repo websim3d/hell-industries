@@ -20,7 +20,7 @@ research:{
   objectives: [
 {
   type: SectorComplete
-  preset: s1-a-warm-welcome
+  preset: s2-ACAUDOTS
     }
     ]
     }
