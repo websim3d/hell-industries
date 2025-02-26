@@ -1,6 +1,7 @@
 planet: persephone
 sector: 4
 captureWave: 25
+difficulty: 4
 research:{
   parent: s1-a-warm-welcome
   objectives: [
