@@ -1,0 +1,60 @@
+type: flying
+speed: 1.85
+drag: 0.06
+accel: 0.08
+flying: true
+engineSize: 5
+engineOffset: 11
+trailLength: 20
+hitSize: 24
+health: 850
+armor: 4
+outlineColor: 484150
+envDisabled: 0
+name: Cordulida
+description: Rapidly fires a storm of small fast bullets.
+research: {
+  parent: unit-remanipulator
+  objectives: [
+      s2-ACAUDOTS
+    ]
+    }
+fogRadius: 17
+weapons: [
+  {
+  x: 0
+  y: 0
+  mirror: false
+  reload: 5
+  inaccuracy: 30
+  shootSound: bolt
+  bullet: {
+    type: BasicBulletType
+    sprite: hell-industries-arc-bullet
+    frontColor: ffffff
+    backColor: f9d2c0
+    hitColor: f9d2c0
+    trailInterval: 4
+    speed: 1
+    height: 4
+    width: 4
+    shrinkY: 0
+    shrinkX: 0
+    trailEffect: {
+      type: ParticleEffect
+      region: hell-industries-arc-bullet
+      colorFrom: f9d2c0aa
+      colorTo: f9d2c000
+      particles: 1
+      length: 0.01
+      rotWithParent: true
+      lifetime: 40
+        }
+      homingPower: 0.03
+      damage: 6
+      homingDelay: 30
+      lifetime: 136
+      collidesAir: false
+        }
+}
+]
