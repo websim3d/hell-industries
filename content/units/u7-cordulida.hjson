@@ -30,6 +30,8 @@ weapons: [
   shootSound: bolt
   bullet: {
     type: BasicBulletType
+    healPercent: 0.2
+    collidesTeam: true
     sprite: hell-industries-arc-bullet
     frontColor: ffffff
     backColor: f9d2c0
