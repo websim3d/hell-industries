@@ -43,6 +43,7 @@ weapons: [
     trailRotation: true
     trailEffect: {
       type: ParticleEffect
+      offset: 90
       region: hell-industries-arc-bullet
       colorFrom: f9d2c0aa
       colorTo: f9d2c000
