@@ -12,7 +12,7 @@ armor: 4
 outlineColor: 484150
 envDisabled: 0
 name: Cordulida
-description: Rapidly fires a storm of small fast bullets.
+description: Rapidly fires a storm of small slow bullets.
 research: {
   parent: unit-remanipulator
   objectives: [
@@ -40,6 +40,7 @@ weapons: [
     width: 4
     shrinkY: 0
     shrinkX: 0
+    trailRotation: true
     trailEffect: {
       type: ParticleEffect
       region: hell-industries-arc-bullet
