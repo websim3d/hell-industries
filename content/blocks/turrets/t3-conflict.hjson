@@ -1,0 +1,46 @@
+type: ItemTurret
+size: 3
+reload: 160
+range: 240
+shootY: 10
+shootSound: artillery
+category: turret
+name: Conflict
+description: Fires a fragmentary osmium shell that deals higher dmg to ennemies further from its point of impact. Or can use carcenerite and fire a longer-range bolt instead.
+squareSprite: false
+drawer: {
+  type: DrawTurret
+  basePrefix: hell-
+  parts: [
+    {
+    suffix: -barrel
+    moveY: -3
+    progress: reload
+    under: true
+      }
+    ]
+}
+research: {
+  parent: t1-inflict
+  objectives: [
+{
+type: SectorComplete
+preset: s2-ACAUDOTS
+  }
+    ]
+}
+ammoTypes: {
+  i1-osmium: {
+    type: ArtilleryBulletType
+    damage: 5
+    splashDamage: 30
+    splashDamageRadius: 24
+    speed: 2
+    lifetime: 100
+    frontColor: 9a94a6
+    backColor: 6c6375
+    shootEffect: shootTitan
+    smokeEffect: shootSmokeTitan
+    trailColor: 6c6375
+    hitColor: 6c6375
+    fragBullets: 1
