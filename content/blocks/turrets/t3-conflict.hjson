@@ -44,3 +44,5 @@ ammoTypes: {
     trailColor: 6c6375
     hitColor: 6c6375
     fragBullets: 1
+}
+}
