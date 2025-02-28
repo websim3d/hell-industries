@@ -14,6 +14,9 @@ upgrades: [
   u2-tanybelus,
   u3-tapsatella
   ]
+  [
+  u6-austropeta,
+  u7-cordulida
   ]
 research:{
   parent: unit-factory
