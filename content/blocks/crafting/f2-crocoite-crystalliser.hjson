@@ -1,3 +1,4 @@
+{
 type: GenericCrafter
 consumes: {
   power: 5
@@ -41,3 +42,4 @@ requirements: [
   ]
 name: "Crocoite Crystalliser"
 description: "Creates crocoite by fusing compounds from osmium and ash. Requires a large amount of power."
+}
