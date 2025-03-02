@@ -1,3 +1,4 @@
+{
 type: GenericCrafter
 size: 3
 consumes: {
@@ -53,3 +54,4 @@ requirements: [
   i4-crocoite/100
   ]
 health: 1200
+}
